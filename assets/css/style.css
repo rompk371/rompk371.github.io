@@ -71,19 +71,28 @@ a:focus-visible {
   background: #E0FFFB;
 }
 
+.site-header .container {
+  padding-left: 0;
+}
+
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: flex-start;
+  gap: 1.25rem;
   flex-wrap: wrap;
 }
 
 .site-name a {
-  font-size: 1.4rem;
+  font-size: clamp(2rem, 3.2vw, 2.9rem);
   font-weight: 700;
   color: #1f2a22;
   letter-spacing: 0.5px;
+}
+
+.site-name {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu {
@@ -211,11 +220,11 @@ a:focus-visible {
 }
 
 .hero--home .hero-text {
-  margin-left: -0.5rem;
+  margin-left: 0;
 }
 
 .hero--home .hero-media {
-  margin-top: -0.5rem;
+  margin-top: -0.9rem;
 }
 
 .hero-text h2 {
@@ -229,13 +238,18 @@ a:focus-visible {
 .profile-photo {
   /* Hero photo styling for a clean, professional headshot. */
   width: 100%;
-  max-width: 240px;
+  max-width: 320px;
   aspect-ratio: 1 / 1;
   height: auto;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--border);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.home main.container {
+  padding-left: 1rem;
+  padding-right: 1.5rem;
 }
 
 .project-grid {

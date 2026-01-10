@@ -15,9 +15,6 @@
 
     <header class="site-header">
       <div class="container header-inner">
-        <div class="site-name">
-          <a href="{{ '/' | relative_url }}">Kristin Rompala</a>
-        </div>
         <div class="menu" data-menu>
           <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">
             <span class="menu-icon" aria-hidden="true"></span>
@@ -31,6 +28,9 @@
             <a href="{{ '/reading/' | relative_url }}" class="{% if page.url == '/reading/' %}active{% endif %}">What I'm Reading</a>
             <a href="{{ '/faqs/' | relative_url }}" class="{% if page.url == '/faqs/' %}active{% endif %}">FAQs</a>
           </div>
+        </div>
+        <div class="site-name">
+          <a href="{{ '/' | relative_url }}">Kristin Rompala</a>
         </div>
       </div>
     </header>
