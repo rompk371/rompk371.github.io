@@ -131,6 +131,7 @@ a:focus-visible {
 }
 
 .profile-photo {
+  /* Hero photo styling for a clean, professional headshot. */
   width: 100%;
   max-width: 260px;
   height: auto;

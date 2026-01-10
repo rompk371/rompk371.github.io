@@ -17,9 +17,9 @@ permalink: /
   </div>
   <div class="hero-media">
     <figure>
-      <!-- Replace /assets/img/profile.jpg with your real headshot file. -->
-      <img class="profile-photo" src="/assets/img/profile.jpg" alt="Photo of Kristin Rompala" />
-      <figcaption class="photo-note">Add your headshot at <code>assets/img/profile.jpg</code>.</figcaption>
+      <!-- Hero photo pulled from assets/img/Kristin headshot 2.jpeg (spaces escaped for the URL). -->
+      <img class="profile-photo" src="{{ '/assets/img/Kristin headshot 2.jpeg' | relative_url | uri_escape }}" alt="Photo of Kristin Rompala" />
+      <figcaption class="photo-note">Photo location: <code>assets/img/Kristin headshot 2.jpeg</code>.</figcaption>
     </figure>
   </div>
 </section>
