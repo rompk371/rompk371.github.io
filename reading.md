@@ -12,8 +12,7 @@ Here are a few books and articles I'm enjoying right now. I like a mix of practi
     <img class="reading-cover" src="{{ '/assets/img/book-cover-1.svg' | relative_url }}" alt="Cover of [Book or Article Title]" />
     <figcaption class="reading-meta">
       <strong>[Book or Article Title]</strong><br />
-      <span>[Author Name]</span><br />
-      <span>Why I'm reading it: One sentence about why it caught my attention.</span>
+      <span>[Author Name]</span>
     </figcaption>
   </figure>
   <figure class="reading-card">
@@ -21,8 +20,7 @@ Here are a few books and articles I'm enjoying right now. I like a mix of practi
     <img class="reading-cover" src="{{ '/assets/img/book-cover-2.svg' | relative_url }}" alt="Cover of [Book or Article Title]" />
     <figcaption class="reading-meta">
       <strong>[Book or Article Title]</strong><br />
-      <span>[Author Name]</span><br />
-      <span>Why I'm reading it: One sentence about why it caught my attention.</span>
+      <span>[Author Name]</span>
     </figcaption>
   </figure>
   <figure class="reading-card">
@@ -30,8 +28,7 @@ Here are a few books and articles I'm enjoying right now. I like a mix of practi
     <img class="reading-cover" src="{{ '/assets/img/book-cover-3.svg' | relative_url }}" alt="Cover of [Book or Article Title]" />
     <figcaption class="reading-meta">
       <strong>[Book or Article Title]</strong><br />
-      <span>[Author Name]</span><br />
-      <span>Why I'm reading it: One sentence about why it caught my attention.</span>
+      <span>[Author Name]</span>
     </figcaption>
   </figure>
   <figure class="reading-card">
@@ -39,8 +36,7 @@ Here are a few books and articles I'm enjoying right now. I like a mix of practi
     <img class="reading-cover" src="{{ '/assets/img/book-cover-4.svg' | relative_url }}" alt="Cover of [Book or Article Title]" />
     <figcaption class="reading-meta">
       <strong>[Book or Article Title]</strong><br />
-      <span>[Author Name]</span><br />
-      <span>Why I'm reading it: One sentence about why it caught my attention.</span>
+      <span>[Author Name]</span>
     </figcaption>
   </figure>
   <figure class="reading-card">
@@ -48,8 +44,7 @@ Here are a few books and articles I'm enjoying right now. I like a mix of practi
     <img class="reading-cover" src="{{ '/assets/img/book-cover-5.svg' | relative_url }}" alt="Cover of [Book or Article Title]" />
     <figcaption class="reading-meta">
       <strong>[Book or Article Title]</strong><br />
-      <span>[Author Name]</span><br />
-      <span>Why I'm reading it: One sentence about why it caught my attention.</span>
+      <span>[Author Name]</span>
     </figcaption>
   </figure>
 </div>
