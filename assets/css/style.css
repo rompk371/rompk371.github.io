@@ -93,12 +93,12 @@ a:focus-visible {
 .menu-button {
   font-family: inherit;
   font-size: 0.95rem;
-  background: rgba(255, 255, 255, 0.9);
+  background: transparent;
   color: #1f2a22;
-  border: 1px solid rgba(20, 40, 35, 0.2);
+  border: none;
   border-radius: 999px;
   padding: 0.4rem 0.9rem;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  box-shadow: none;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -106,11 +106,11 @@ a:focus-visible {
 }
 
 .menu-button:hover {
-  background: rgba(255, 255, 255, 1);
+  text-decoration: underline;
 }
 
 .menu-button:focus-visible {
-  outline: 3px solid var(--focus);
+  outline: 2px solid #1f2a22;
   outline-offset: 2px;
 }
 
@@ -118,8 +118,8 @@ a:focus-visible {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 999px;
-  border: 1px solid rgba(20, 40, 35, 0.25);
-  background: #ffffff;
+  border: none;
+  background: transparent;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -141,13 +141,13 @@ a:focus-visible {
   top: calc(100% + 0.6rem);
   left: 0;
   min-width: 220px;
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid var(--border);
+  background: transparent;
+  border: none;
   border-radius: 10px;
   padding: 0.6rem;
   display: grid;
   gap: 0.35rem;
-  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.18);
+  box-shadow: none;
   opacity: 0;
   transform: translateY(-8px);
   visibility: hidden;
@@ -172,12 +172,12 @@ a:focus-visible {
 
 .menu-panel a:hover,
 .menu-panel a:focus-visible {
-  background: #eef7f5;
+  text-decoration: underline;
 }
 
 .menu-panel a.active {
-  background: #e2f0ee;
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .panel {
