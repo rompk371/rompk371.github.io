@@ -19,7 +19,6 @@ permalink: /
     <figure>
       <!-- Hero photo pulled from assets/img/Kristin headshot 2.jpeg (spaces escaped for the URL). -->
       <img class="profile-photo" src="{{ '/assets/img/Kristin headshot 2.jpeg' | relative_url | uri_escape }}" alt="Photo of Kristin Rompala" />
-      <figcaption class="photo-note">Photo location: <code>assets/img/Kristin headshot 2.jpeg</code>.</figcaption>
     </figure>
   </div>
 </section>

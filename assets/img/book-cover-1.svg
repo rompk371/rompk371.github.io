@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="Book cover placeholder">
+  <rect width="600" height="800" fill="#f0e7d8" />
+  <rect x="40" y="40" width="520" height="720" fill="#e0d2be" stroke="#c9bca7" stroke-width="4" />
+  <text x="300" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#5a4a3b">Book Cover</text>
+  <text x="300" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5a4a3b">Placeholder</text>
+</svg>
