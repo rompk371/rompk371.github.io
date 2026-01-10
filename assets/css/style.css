@@ -18,7 +18,7 @@ body {
   background: #E0FFFB;
   color: var(--text);
   line-height: 1.6;
-  cursor: url("/assets/cursor/paintbrush.svg") 2 28, auto;
+  cursor: url("/assets/cursor/paintbrush-emoji.svg") 2 28, auto;
 }
 
 h1,
