@@ -6,7 +6,7 @@ permalink: /
 
 <section class="hero hero--home">
   <div class="hero-text">
-    <h2 class="hero-outline">Kristin here. I'm moving to Sweden in 2027!</h2>
+    <h2>Kristin here. I'm moving to Sweden in 2027!</h2>
     <p>I balance my creative side as an amateur artist with a decade of experience managing offices and teams, bringing energy, organization, and a genuine commitment to setting my coworkers up for success. </p>
     <h3>Key Summary</h3>
     <ul>
