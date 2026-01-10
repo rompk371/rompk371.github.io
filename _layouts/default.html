@@ -15,14 +15,20 @@
         <div class="site-name">
           <a href="{{ '/' | relative_url }}">Kristin Rompala</a>
         </div>
-        <nav class="site-nav" aria-label="Primary">
-          <a href="{{ '/bio/' | relative_url }}" class="{% if page.url == '/bio/' %}active{% endif %}">Bio</a>
-          <a href="{{ '/portfolio/' | relative_url }}" class="{% if page.url == '/portfolio/' %}active{% endif %}">Portfolio</a>
-          <a href="{{ '/resume/' | relative_url }}" class="{% if page.url == '/resume/' %}active{% endif %}">Resume</a>
-          <a href="{{ '/contact/' | relative_url }}" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-          <a href="{{ '/reading/' | relative_url }}" class="{% if page.url == '/reading/' %}active{% endif %}">What I'm Reading</a>
-          <a href="{{ '/faqs/' | relative_url }}" class="{% if page.url == '/faqs/' %}active{% endif %}">FAQs</a>
-        </nav>
+        <div class="menu" data-menu>
+          <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-menu">
+            <span class="menu-icon" aria-hidden="true"></span>
+            Menu
+          </button>
+          <div id="site-menu" class="menu-panel" aria-hidden="true">
+            <a href="{{ '/bio/' | relative_url }}" class="{% if page.url == '/bio/' %}active{% endif %}">Bio</a>
+            <a href="{{ '/portfolio/' | relative_url }}" class="{% if page.url == '/portfolio/' %}active{% endif %}">Portfolio</a>
+            <a href="{{ '/resume/' | relative_url }}" class="{% if page.url == '/resume/' %}active{% endif %}">Resume</a>
+            <a href="{{ '/contact/' | relative_url }}" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+            <a href="{{ '/reading/' | relative_url }}" class="{% if page.url == '/reading/' %}active{% endif %}">What I'm Reading</a>
+            <a href="{{ '/faqs/' | relative_url }}" class="{% if page.url == '/faqs/' %}active{% endif %}">FAQs</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -43,5 +49,41 @@
         </div>
       </div>
     </footer>
+    <script>
+      (() => {
+        const menu = document.querySelector("[data-menu]");
+        if (!menu) return;
+        const button = menu.querySelector(".menu-button");
+        const panel = menu.querySelector(".menu-panel");
+        const links = panel.querySelectorAll("a");
+
+        const setOpen = (isOpen) => {
+          menu.classList.toggle("is-open", isOpen);
+          button.setAttribute("aria-expanded", String(isOpen));
+          panel.setAttribute("aria-hidden", String(!isOpen));
+          links.forEach((link) => link.setAttribute("tabindex", isOpen ? "0" : "-1"));
+        };
+
+        setOpen(false);
+
+        button.addEventListener("click", () => {
+          const isOpen = menu.classList.contains("is-open");
+          setOpen(!isOpen);
+        });
+
+        document.addEventListener("click", (event) => {
+          if (!menu.contains(event.target)) {
+            setOpen(false);
+          }
+        });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            setOpen(false);
+            button.focus();
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
