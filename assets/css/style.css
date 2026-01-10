@@ -230,6 +230,17 @@ a:focus-visible {
   padding-left: 1.1rem;
 }
 
+.intro-accent {
+  color: #F2C94C;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.intro-accent + .intro-accent {
+  margin-top: 0.15rem;
+}
+
 .hero {
   display: grid;
   gap: 2rem;
