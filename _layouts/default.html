@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="site-name">
+          <a href="{{ '/' | relative_url }}">Kristin Rompala</a>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="{{ '/bio/' | relative_url }}" class="{% if page.url == '/bio/' %}active{% endif %}">Bio</a>
+          <a href="{{ '/portfolio/' | relative_url }}" class="{% if page.url == '/portfolio/' %}active{% endif %}">Portfolio</a>
+          <a href="{{ '/resume/' | relative_url }}" class="{% if page.url == '/resume/' %}active{% endif %}">Resume</a>
+          <a href="{{ '/contact/' | relative_url }}" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <article class="panel">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© {{ 'now' | date: '%Y' }} Kristin Rompala. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
