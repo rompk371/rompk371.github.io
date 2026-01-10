@@ -10,7 +10,7 @@ permalink: /
     <p>I balance my creative side as an amateur artist with a decade of experience managing offices and teams, bringing energy, organization, and a genuine commitment to setting my coworkers up for success. </p>
     <h3>Key Summary</h3>
     <ul>
-      <li>Accountable and outcome-driven admin professional with kick-ass customer service skills</li>
+      <li>Accountable and outcome-driven admin professional with awesome customer service skills</li>
       <li>Clear communicator who thrives in cross-functional teams and across hierarchies</li>
       <li>Focused on accessibility, quality, and continuous improvement of workflows</li>
     </ul>
