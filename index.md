@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hej hej!
+title: Hej!
 permalink: /
 ---
 
