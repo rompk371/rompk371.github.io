@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Welcome
+title: Hej hej!
 permalink: /
 ---
 
 <section class="hero">
   <div class="hero-text">
     <h2>Kristin Rompala</h2>
-    <p>I build clean, usable experiences and partner across teams to ship thoughtful, reliable products.</p>
+    <p>I balance my creative side as an amateur artist with a decade of experience managing offices and teams, bringing energy, organization, and a genuine commitment to setting my coworkers up for success. </p>
     <h3>Key Summary</h3>
     <ul>
-      <li>Product-minded engineer with strong UX sensibilities</li>
-      <li>Clear communicator who thrives in cross-functional teams</li>
-      <li>Focused on accessibility, quality, and continuous improvement</li>
+      <li>Accountable and outcome-driven admin professional with kick-ass customer service skills</li>
+      <li>Clear communicator who thrives in cross-functional teams and across hierarchies</li>
+      <li>Focused on accessibility, quality, and continuous improvement of workflows</li>
     </ul>
   </div>
   <div class="hero-media">
