@@ -114,6 +114,37 @@ a:focus-visible {
   padding-left: 1.1rem;
 }
 
+.hero {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  grid-template-columns: 1.2fr 0.8fr;
+  margin-bottom: 2rem;
+}
+
+.hero-text h2 {
+  margin-top: 0;
+}
+
+.hero-media {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.photo-note {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #4b5a4f;
+}
+
 .project-grid {
   list-style: none;
   padding: 0;
@@ -154,5 +185,15 @@ a:focus-visible {
 
   .site-name a {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-media {
+    order: -1;
   }
 }
