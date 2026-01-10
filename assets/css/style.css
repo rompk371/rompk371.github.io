@@ -78,13 +78,13 @@ a:focus-visible {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 1.25rem;
   flex-wrap: wrap;
 }
 
 .site-name a {
-  font-size: clamp(2rem, 3.2vw, 2.9rem);
+  font-size: clamp(1.75rem, 2.6vw, 2.5rem);
   font-weight: 700;
   color: #1f2a22;
   letter-spacing: 0.5px;
@@ -92,7 +92,8 @@ a:focus-visible {
 
 .site-name {
   margin-left: auto;
-  margin-right: auto;
+  text-align: right;
+  padding-right: 0.75rem;
 }
 
 .menu {
@@ -328,6 +329,47 @@ a:focus-visible {
   margin-right: 0.75rem;
 }
 
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-name {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .menu-panel {
+    position: static;
+    min-width: auto;
+    display: grid;
+    gap: 0.35rem;
+    align-items: stretch;
+    transform: none;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: max-height 220ms ease, opacity 180ms ease;
+  }
+
+  .menu.is-open .menu-panel {
+    max-height: 320px;
+    opacity: 1;
+    padding: 0.4rem 0;
+  }
+
+  .menu-panel a {
+    white-space: normal;
+  }
+}
+
 @media (max-width: 640px) {
   .panel {
     padding: 1.25rem;
@@ -335,24 +377,6 @@ a:focus-visible {
 
   .site-name a {
     font-size: 1.2rem;
-  }
-
-  .menu-panel {
-    top: calc(100% + 0.6rem);
-    left: 0;
-    min-width: 220px;
-    display: grid;
-    gap: 0.35rem;
-    align-items: stretch;
-    transform: translateY(-8px);
-  }
-
-  .menu.is-open .menu-panel {
-    transform: translateY(0);
-  }
-
-  .menu-panel a {
-    white-space: normal;
   }
 }
 
