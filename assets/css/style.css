@@ -175,6 +175,14 @@ a:focus-visible {
   gap: 0.5rem;
 }
 
+.reading-card:nth-child(odd) {
+  margin-top: 0.4rem;
+}
+
+.reading-card:nth-child(3n) {
+  margin-top: 0.9rem;
+}
+
 .reading-cover {
   width: 100%;
   height: auto;
