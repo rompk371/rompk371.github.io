@@ -15,9 +15,19 @@
 body {
   margin: 0;
   font-family: "Georgia", "Times New Roman", serif;
-  background: #C4FFFB;
+  background: #E0FFFB;
   color: var(--text);
   line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+.site-name a,
+.menu-button,
+.menu-panel a {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
 }
 
 a {
@@ -58,7 +68,7 @@ a:focus-visible {
 
 .site-header {
   border-bottom: 1px solid rgba(20, 40, 35, 0.2);
-  background: #C4FFFB;
+  background: #E0FFFB;
 }
 
 .header-inner {
@@ -176,6 +186,14 @@ a:focus-visible {
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.home .panel {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
 }
 
 .panel h1 {
