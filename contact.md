@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 - Email: [kristin.rompala@icloud.com](mailto:kristin.rompala@icloud.com)
-- LinkedIn: [linkedin.com/in/kristin-a-rompala]
-- GitHub: [github.com/rompk371]
+- LinkedIn: [linkedin.com/in/kristin-a-rompala](https://linkedin.com/in/kristin-a-rompala)
+- GitHub: [github.com/rompk371](https://github.com/rompk371)
 
 If you would like to connect, email me and I will respond as soon as I can.
