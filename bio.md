@@ -18,4 +18,4 @@ I enjoy painting and drawing, having studied art in university; playing with my 
 - Organization and prioritization of competing projects and deadlines
 - Curiousity and an eagerness to learn
 
-Currently learning: Swedish (Jag förstår lite svenska!), and web development with the help of OpenAI, Reddit, Youtube, and Github..
+Currently learning: Swedish (Jag förstår lite svenska!), and web development with the help of OpenAI, Reddit, Youtube, and Github.
