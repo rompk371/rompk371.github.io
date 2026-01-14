@@ -10,7 +10,7 @@ Raised in New Jersey, I've lived in Dublin, Ireland and Brooklyn, NYC. I moved t
 
 I enjoy painting and drawing, having studied art in university; playing with my two cats, Benny and Pudd'n; reading fiction; and keeping up on TV and movies. I'm a great teammate for pub trivia and Pictionary!
 
-### Strengths
+## Strengths
 - Friendly and personable communication style (when appropriate), and the ability to adjust my style to the needs of the situation
 - Translating difficult or confusing information 
 - Ease with and enthusiasm for collaboration
@@ -18,4 +18,6 @@ I enjoy painting and drawing, having studied art in university; playing with my 
 - Organization and prioritization of competing projects and deadlines
 - Curiousity and an eagerness to learn
 
-Currently learning: Swedish (Jag förstår lite svenska!), and web development with the help of OpenAI, Reddit, Youtube, and Github.
+## Currently Learning
+- Swedish (Jag förstår lite svenska!)
+- Web development (with the help of OpenAI, Reddit, Youtube, and Github)
