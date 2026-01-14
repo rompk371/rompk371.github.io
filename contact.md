@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-##
-
 - Email: [kristin.rompala@icloud.com](mailto:kristin.rompala@icloud.com)
 - LinkedIn: [linkedin.com/in/kristin-a-rompala]
 - GitHub: [github.com/rompk371]
